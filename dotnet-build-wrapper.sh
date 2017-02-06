@@ -20,6 +20,5 @@ popd > /dev/null
 
 mkdir -p $MY_DIR/bin/pkg
 pushd $MY_DIR/bin/pkg > /dev/null
-$MY_DIR/pkg/init-tools.sh
 $MY_DIR/pkg/pack.sh --rid $RID
 popd > /dev/null
