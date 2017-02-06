@@ -20,5 +20,5 @@ popd > /dev/null
 
 mkdir -p $MY_DIR/bin/pkg
 pushd $MY_DIR/bin/pkg > /dev/null
-$MY_DIR/pkg/pack.sh --rid $RID
+$MY_DIR/build.sh --targets PackagePkgProjects
 popd > /dev/null
